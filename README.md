@@ -33,20 +33,26 @@ Dashboard sections (Profile, Academic Info, Fees, Support) are dynamically updat
 
 **🛠️ Technologies Used**
 
-Frontend: HTML5, CSS3, JavaScript(ES6+)
+Frontend: HTML5, CSS3, JavaScript(ES6+), AngularJS
 
 IDE: Visual Studio Code
 
 Deployment: GitHub pages
 
-**⚠️ Challenges Faced**
+**🧩 API Endpoints**
 
-Handling dynamic student ID generation without backend integration.
+POST /addStudent → Add a new student
 
-Ensuring form validation covers all possible user input errors.
+GET /getStudents → Retrieve all student records
 
-Creating a responsive dashboard layout for multiple screen sizes.
+PUT /updateStudent/:id → Update an existing student record
 
-Managing dynamic content updates for profile, academic info, and fees using only frontend code.
+DELETE /deleteStudent/:id → Delete a student record 
 
-Implementing password strength checking and visibility toggling.
+**💡 Challenges and Solutions**
+
+Challenge1: Connecting AngularJS to SQL database Solution: Used a lightweight backend (Node.js or PHP) to handle SQL queries safely.
+
+Challenge2: Data not updating instantly on UI Solution: Implemented $scope and $apply() to refresh data dynamically.
+
+Challenge3: Form validation errors Solution: Used AngularJS directives like ng-model, ng-required, and real-time validation messages.

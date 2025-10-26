@@ -1,7 +1,8 @@
-**##📰 Student Management System**
+**##🎓 Student Management System**
 
-Student Management System is a web-based portal for managing student registrations, profiles, academic info, and fee status.
-Built using HTML, CSS, and JavaScript, it provides a clean, responsive dashboard and interactive forms for students and admins.
+The Student Management System is a simple, web-based CRUD application built using AngularJS and SQL. It enables users to add, view, update, and delete student details such as Name, Age, Department, Email, and Phone Number.
+
+The main goal of this project is to demonstrate how AngularJS interacts with a SQL database through a lightweight backend using Node.js/Express or PHP. This makes it a great beginner-friendly full-stack project for learning CRUD operations and database connectivity.
 
 **🚀 Features**
 
